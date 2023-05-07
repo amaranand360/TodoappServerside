@@ -4,6 +4,9 @@
   "description": "secuirty",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "scripts": {
     "start": " node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
