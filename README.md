@@ -1,4 +1,4 @@
-# 📝 To-Do App Serverside
+# 📝 To-Do App Serverside with Authentication
 
 This is a Node.js application with login/logout/register and CRUD functionalities for managing to-do items.
 # 🚀 Installation
