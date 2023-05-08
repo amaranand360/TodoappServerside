@@ -13,7 +13,10 @@ This is Backend side project of Todo app with Node.js and Express.js application
  
  # 🚀 Live Demo
  
-- Live link : https://todoappbyamar.onrender.com
+- server-side Live link : https://todoappbyamar.onrender.com
+
+- client-side Live at : https://todoappclientside.vercel.app
+
 
 # 🔑 Authentication
 
