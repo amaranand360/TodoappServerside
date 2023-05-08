@@ -10,7 +10,10 @@ This is Backend side project of Todo app with Node.js and Express.js application
 
     Start the server: npm start
     Open your web browser and go to http://localhost:3000
-    
+ 
+ # 🚀 Live Demo
+ 
+- Live link : https://todoappbyamar.onrender.com
 
 # 🔑 Authentication
 
@@ -43,8 +46,9 @@ The app uses a JSON Web Token (JWT) for authentication. To register a new user, 
 
 <h3>DELETE /task/:id </h3>
 
-- <h3>Deletes a to-do item by ID for the authenticated user.</h3>
-POST /logout
+<h3>Deletes a to-do item by ID for the authenticated user.</h3>
+
+- POST /logout
 
 Logs out the authenticated user.
 # 🤝 Contributing
