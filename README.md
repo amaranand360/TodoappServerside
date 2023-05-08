@@ -44,13 +44,14 @@ The app uses a JSON Web Token (JWT) for authentication. To register a new user, 
 
 - Updates an existing to-do item by ID for the authenticated user.
 
-<h3>DELETE /task/:id </h3>
+<h3> DELETE /task/:id </h3>
 
-<h3>Deletes a to-do item by ID for the authenticated user.</h3>
+- Deletes a to-do item by ID for the authenticated user.
 
-- POST /logout
+<h3> POST /logout</h3>
 
-Logs out the authenticated user.
+- Logs out the authenticated user.
+
 # 🤝 Contributing
 
 Contributions are always welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
