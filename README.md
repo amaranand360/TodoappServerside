@@ -1,44 +1,56 @@
 # 📝 To-Do App Serverside with Authentication
 
-This is a Node.js application with login/logout/register and CRUD functionalities for managing to-do items.
+This is Backend side project of Todo app with Node.js and Express.js application with login/logout/register and CRUD functionalities for managing to-do items.
 # 🚀 Installation
 
-    Clone the repository: git clone https://github.com/your-username/To-Do-App-with-Authentication.git
+    Clone the repository: git clone https://github.com/amaranand360/TodoappServerside.git
     Install the dependencies: npm install
-
-# 🔑 Authentication
-
-The app uses a JSON Web Token (JWT) for authentication. To register a new user, make a POST request to /register with a JSON payload containing a username and password field. To log in, make a POST request to /login with the same payload. The server will respond with a JWT token that can be used to authenticate subsequent requests.
+    
 # 🎯 Usage
 
     Start the server: npm start
     Open your web browser and go to http://localhost:3000
+    
+
+# 🔑 Authentication
+
+The app uses a JSON Web Token (JWT) for authentication. To register a new user, make a POST request to /register with a JSON payload containing a username and password field. To log in, make a POST request to /login with the same payload. The server will respond with a JWT token that can be used to authenticate subsequent requests.
 
 # 📝 API Routes
-GET /todos
+<h3> POST /register </h3>
 
-Returns a list of all to-do items for the authenticated user.
-GET /todos/:id
+-  Allow to create account for new user.
 
-Returns a single to-do item by ID for the authenticated user.
-POST /todos
+<h3> POST /login </h3>
 
-Creates a new to-do item for the authenticated user.
-PUT /todos/:id
+-  allow to Log in with user authentication.
 
-Updates an existing to-do item by ID for the authenticated user.
-DELETE /todos/:id
+<h3> GET /tasks </h3>
 
-Deletes a to-do item by ID for the authenticated user.
+- Returns a list of all to-do items for the authenticated user.
+
+<h3>GET /task/:id </h3>
+
+- Returns a single to-do item by ID for the authenticated user.
+
+<h3>POST /task/new</h3>
+
+- Creates a new to-do item for the authenticated user.
+
+<h3>PUT /tasks/:id</h3>
+
+- Updates an existing to-do item by ID for the authenticated user.
+
+<h3>DELETE /task/:id </h3>
+
+- <h3>Deletes a to-do item by ID for the authenticated user.</h3>
 POST /logout
 
 Logs out the authenticated user.
-🤝 Contributing
+# 🤝 Contributing
 
 Contributions are always welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
 
-🙏 Credits
+# 📧 Contact
 
-   - Node.js
-   - Express.js
-   - jsonwebtoken
+If you have any questions or comments, please feel free to contact me at: amar.anand0030@gmail.com 👈
